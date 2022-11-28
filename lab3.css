@@ -1,0 +1,39 @@
+p {font-size: 2em;
+font-family: arial,verdana,sans-serif;}
+span {color: brown;
+font-size: 3em;
+height: 1em}
+shiftleft{ position: relative;
+left: -2ex;}
+shiftright{position: relative;
+right: -2ex;}
+h1 {
+background-color: lightgray;
+}
+body{
+background-image: url("T&J.jpg");
+background-size: 200px;
+background-position: bottom right;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.dark{
+font-size: 30pt;
+color: navy;
+font-weight: bolder;
+
+}
+nav.navbar {font-weight: bold;
+color: white;
+bolder: 4px solid royalblue;
+text-align: center;
+width: 20em;
+height: 3em;
+background-color: royalblue; }
+nav.navbar ul {display: none;
+list-style: none;
+margin: 0;
+padding: 0;}
+nav.navbar:hover ul {display: block;}
+nav.navbar ul li {border-top: 6px solid royalblue;
+background-color: white;
